@@ -11,7 +11,7 @@
 # I'm cursed and this is the penance I pay for my sins
 set -gx PATH (string match -v "*/node_modules/.bin" $PATH)
 
-fish_add_path ~/go/bin ~/.cargo/bin ~/.bin /usr/local/Cellar/apache-spark/1.5.2/bin
+fish_add_path ~/go/bin ~/.cargo/bin ~/.bin ~/.local/bin /usr/local/Cellar/apache-spark/1.5.2/bin /Applications/Obsidian.app/Contents/MacOS
 
 # Fix for GPG TTY error
 set -gx GPG_TTY (tty)

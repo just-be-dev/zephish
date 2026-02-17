@@ -8,12 +8,13 @@
 # be loaded on shell start
 
 # Quick edit access for Zephish plugin
-e zed
 EZ zed ~/.local/share/omf/pkg/zephish
 
 # General abbreviations
 c clear
-ee exit
+e exit
+
+oc opencode
 
 # Git abbreviations
 gcopr gh pr checkout
