@@ -8,6 +8,7 @@
 # be loaded on shell start
 
 # Quick edit access for Zephish plugin
+zz zed
 EZ zed ~/.local/share/omf/pkg/zephish
 
 # General abbreviations
