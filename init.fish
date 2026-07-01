@@ -15,7 +15,7 @@ fish_add_path ~/go/bin ~/.cargo/bin ~/.bin ~/.local/bin /usr/local/Cellar/apache
 
 # Fix for GPG TTY error
 set -gx GPG_TTY (tty)
-set -gx EDITOR (which zed)
+set -gx EDITOR (which nvim)
 
 if type -q starship
     starship init fish | source

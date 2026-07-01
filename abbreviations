@@ -8,8 +8,7 @@
 # be loaded on shell start
 
 # Quick edit access for Zephish plugin
-zz zed
-EZ zed ~/.local/share/omf/pkg/zephish
+EZ nvim ~/.local/share/omf/pkg/zephish
 
 # General abbreviations
 c clear
@@ -20,8 +19,7 @@ oc opencode
 # Git abbreviations
 gcopr gh pr checkout
 
-# Shorten nvm
-n nvm use --delete-prefix
+n nvim
 
 # Git remove merged branches
 grmb git rm-merged
