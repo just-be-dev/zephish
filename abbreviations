@@ -8,7 +8,7 @@
 # be loaded on shell start
 
 # Quick edit access for Zephish plugin
-EZ nvim ~/.local/share/omf/pkg/zephish
+EZ eval $EDITOR ~/.local/share/omf/pkg/zephish
 
 # General abbreviations
 c clear
@@ -19,6 +19,7 @@ oc opencode
 # Git abbreviations
 gcopr gh pr checkout
 
+# invoke nvim
 n nvim
 
 # Git remove merged branches
@@ -47,3 +48,5 @@ ai mods
 # Mise
 mr mise run
 mi mise install
+
+hh herdr
