@@ -21,6 +21,7 @@ gcopr gh pr checkout
 
 # invoke nvim
 n nvim
+ai omp
 
 # Git remove merged branches
 grmb git rm-merged
@@ -41,9 +42,6 @@ cd z
 
 # Rust
 cb cargo build
-
-# Use ai as a shortcut for mods
-ai mods
 
 # Mise
 mr mise run
